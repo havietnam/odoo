@@ -20,7 +20,7 @@ msgstr ""
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_stock_history_report_tree
 msgid "# of Products"
-msgstr ""
+msgstr "SL Sản phẩm"
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_category_property_form
@@ -52,18 +52,18 @@ msgstr "Cho phép cấu hình định giá tồn kho trên sản phẩm và nhó
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_asset_category_id
 msgid "Asset Type"
-msgstr ""
+msgstr "Kiểu Tài sản"
 
 #. module: stock_account
 #: selection:product.category,property_cost_method:0
 #: selection:product.template,property_cost_method:0
 msgid "Average Price"
-msgstr "Giá TB"
+msgstr "Giá trung bình"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_can_be_expensed
 msgid "Can be expensed"
-msgstr ""
+msgstr "Có thể là chi phí"
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_change_standard_price
@@ -116,7 +116,7 @@ msgstr "Công ty"
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_template_property_form
 msgid "Compute from average price"
-msgstr ""
+msgstr "Tính toán từ giá trung bình"
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_change_standard_price
@@ -157,17 +157,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_account.field_stock_history_display_name
 #: model:ir.model.fields,field_description:stock_account.field_wizard_valuation_history_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Tên hiển thị"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_inventory_accounting_date
 msgid "Force Accounting Date"
-msgstr ""
+msgstr "Cưỡng bức ngày kế toán"
 
 #. module: stock_account
 #: model:ir.ui.view,arch_db:stock_account.view_stock_history_report_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "Nhóm theo"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price_id
@@ -209,7 +209,7 @@ msgstr ""
 #. module: stock_account
 #: selection:stock.config.settings,module_stock_landed_costs:0
 msgid "Include landed costs in product costing computation"
-msgstr ""
+msgstr "Bao gồm cả landed cost khi tính chi phí sản phẩm"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_config_settings_module_stock_landed_costs
@@ -221,7 +221,7 @@ msgstr "Cài đặt phân hệ này sẽ cho phép tác động tới landed cos
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_inventory
 msgid "Inventory"
-msgstr ""
+msgstr "Tồn kho"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_location
@@ -247,7 +247,7 @@ msgstr "Giá trị tồn kho"
 #: model:ir.model.fields,field_description:stock_account.field_wizard_valuation_history_choose_date
 #: model:ir.ui.menu,name:stock_account.menu_action_wizard_valuation_history
 msgid "Inventory at Date"
-msgstr ""
+msgstr "Tồn kho tại ngày"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_account_invoice
@@ -269,13 +269,13 @@ msgstr "Landed Costs"
 #: model:ir.model.fields,field_description:stock_account.field_stock_history___last_update
 #: model:ir.model.fields,field_description:stock_account.field_wizard_valuation_history___last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Sửa lần cuối vào"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price_write_uid
 #: model:ir.model.fields,field_description:stock_account.field_wizard_valuation_history_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price_write_date
@@ -308,35 +308,35 @@ msgstr "Không có sự khác biệt giữa giá tiêu chuẩn và giá mới!"
 #. module: stock_account
 #: selection:stock.config.settings,module_stock_landed_costs:0
 msgid "No landed costs"
-msgstr ""
+msgstr "Không có landed cost"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_history_date
 msgid "Operation Date"
-msgstr "Operation Date"
+msgstr "Ngày thực hiện"
 
 #. module: stock_account
 #: selection:product.category,property_valuation:0
 #: selection:product.template,property_valuation:0
 msgid "Periodic (manual)"
-msgstr ""
+msgstr "Định kỳ (thủ công)"
 
 #. module: stock_account
 #: selection:stock.config.settings,group_stock_inventory_valuation:0
 msgid "Periodic inventory valuation (recommended)"
-msgstr ""
+msgstr "Kiểm kho định kỳ (khuyên dùng)"
 
 #. module: stock_account
 #: selection:product.category,property_valuation:0
 #: selection:product.template,property_valuation:0
 msgid "Perpetual (automated)"
-msgstr ""
+msgstr "Thường xuyên (tự động hóa)"
 
 #. module: stock_account
 #: selection:stock.config.settings,group_stock_inventory_valuation:0
 msgid ""
 "Perpetual inventory valuation (stock move generates accounting entries)"
-msgstr ""
+msgstr "Tự tạo bút toán kế toán tài chính cho mỗi dịch chuyển kho"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price_new_price
@@ -365,7 +365,7 @@ msgstr "Nhóm sản phẩm"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_life_time
 msgid "Product Life Time"
-msgstr ""
+msgstr "Tuổi thọ sản phẩm"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_history_quantity
@@ -375,7 +375,7 @@ msgstr "Số lượng sản phẩm"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_removal_time
 msgid "Product Removal Time"
-msgstr ""
+msgstr "Thời gian hủy sản phẩm"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_product_template
@@ -387,7 +387,7 @@ msgstr "Mẫu sản phẩm"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product_use_time
 msgid "Product Use Time"
-msgstr ""
+msgstr "Hạn sử dụng của sản phẩm"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_quant
@@ -676,4 +676,4 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_account.field_product_template_cost_method
 #: model:ir.model.fields,field_description:stock_account.field_product_template_valuation
 msgid "unknown"
-msgstr "chưa rõ"
+msgstr "không xác định"

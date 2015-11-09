@@ -1143,14 +1143,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:182
 #, python-format
 msgid "You can cancel to return to the edition mode."
-msgstr ""
+msgstr "Bạn có thể bấm Hủy đê quay về chế độ soạn thảo"
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:179
 #, python-format
 msgid "all"
-msgstr ""
+msgstr "tất cả"
 
 #. module: web_editor
 #. openerp-web
@@ -1275,7 +1275,7 @@ msgstr "hoặc"
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub_name
 msgid "unknown"
-msgstr "chưa rõ"
+msgstr "không xác định"
 
 #. module: web_editor
 #. openerp-web
