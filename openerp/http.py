@@ -1601,8 +1601,10 @@ def db_filter(dbs, httprequest=None):
     httprequest = httprequest or request.httprequest
     h = httprequest.environ.get('HTTP_HOST', '').split(':')[0]
     d, _, r = h.partition('.')
-    if d == "www" and r:
+    if (d == "www" or d == "erp"  or d == "accounts") and r:
         d = r.partition('.')[0]
+    if openerp.tools.config['proxy_mode'] and 'HTTP_X_CUSTOM_REFERRER' in httprequest.environ:
+        d = httprequest.environ.get('HTTP_X_CUSTOM_REFERRER', '')        
     r = openerp.tools.config['dbfilter'].replace('%h', h).replace('%d', d)
     dbs = [i for i in dbs if re.match(r, i)]
     return dbs
